@@ -1,6 +1,8 @@
 <?php
+    error_reporting(E_ALL);
+ini_set('display_errors', 1)
 header("Content-Type: application/json");
-require "conexion.php";
+
 
 $fecha        = trim($_POST["fecha"] ?? "");
 $num_mesas    = (int)($_POST["num_mesas"] ?? 0);
@@ -21,21 +23,6 @@ if ($fecha === "" || $num_mesas < 1 || $invitados < 1 || $tipo_fiesta === "" || 
 if ($lugar !== "piscina" && $lugar !== "salon") {
     echo json_encode(["ok" => false, "error" => "Lugar inválido"]);
     exit;
-}
-
-$planta = ($planta === "") ? null : (int)$planta;
-$puff   = ($puff   === "") ? null : (int)$puff;
-$meson  = ($meson  === "") ? null : (int)$meson;
-$perros = ($perros === "") ? null : (int)$perros;
-
-try {
-    $sql = "INSERT INTO reservas
-            (fecha, num_mesas, planta_electrica, puff, lugar, num_invitados,
-             tipo_fiesta, hora_evento, meson, perros)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $pdo->prepare($sql);
-    $stmt->execute([$fecha, $num_mesas, $planta, $puff, $lugar,
-                    $invitados, $tipo_fiesta, $hora, $meson, $perros]);
     echo json_encode(["ok" => true, "id" => $pdo->lastInsertId()]);
 } catch (PDOException $e) {
     echo json_encode(["ok" => false, "error" => "No se pudo guardar"]);
