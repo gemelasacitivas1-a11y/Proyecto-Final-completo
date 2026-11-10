@@ -1,0 +1,225 @@
+---
+name: Oasis Salón & Piscina
+colors:
+  surface: '#fbf9f6'
+  surface-dim: '#dbdad7'
+  surface-bright: '#fbf9f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f3f0'
+  surface-container: '#efeeeb'
+  surface-container-high: '#eae8e5'
+  surface-container-highest: '#e4e2df'
+  on-surface: '#1b1c1a'
+  on-surface-variant: '#3f4850'
+  inverse-surface: '#30312f'
+  inverse-on-surface: '#f2f0ed'
+  outline: '#707881'
+  outline-variant: '#bfc7d2'
+  surface-tint: '#006398'
+  primary: '#006194'
+  on-primary: '#ffffff'
+  primary-container: '#007bb9'
+  on-primary-container: '#fdfcff'
+  inverse-primary: '#93ccff'
+  secondary: '#565e74'
+  on-secondary: '#ffffff'
+  secondary-container: '#dae2fd'
+  on-secondary-container: '#5c647a'
+  tertiary: '#8d4b00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#b15f00'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#cce5ff'
+  primary-fixed-dim: '#93ccff'
+  on-primary-fixed: '#001d31'
+  on-primary-fixed-variant: '#004b73'
+  secondary-fixed: '#dae2fd'
+  secondary-fixed-dim: '#bec6e0'
+  on-secondary-fixed: '#131b2e'
+  on-secondary-fixed-variant: '#3f465c'
+  tertiary-fixed: '#ffdcc3'
+  tertiary-fixed-dim: '#ffb77d'
+  on-tertiary-fixed: '#2f1500'
+  on-tertiary-fixed-variant: '#6e3900'
+  background: '#fbf9f6'
+  on-background: '#1b1c1a'
+  surface-variant: '#e4e2df'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '600'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 3rem
+  margin-sm: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+The brand personality balances the architectural serenity of a luxury Mediterranean resort with the warm, sun-drenched hospitality of private celebration spaces. Designed for high-end event planners, wedding clients, and hosts organizing discerning poolside gatherings, the interface conveys exclusivity, effortless calm, and meticulous refinement.
+
+The aesthetic fuses **Warm Editorial Minimalism** with understated **Resort Tactility**:
+- Editorial prestige anchored by high-contrast serif typography and generous whitespace.
+- Sun-lit textures evoked through warm alabaster canvas fills, subtle champagne-gold micro-strokes, and crystal-clear pool azure accents.
+- Utilitarian precision for reservation flows, scheduling matrices, and package pricing modules, avoiding sterile corporate rigidity while eliminating visual clutter.
+
+## Colors
+
+The palette derives from sunlight reflecting over water, structural stone, and warm festive illumination:
+
+- **Primary (`#0284C7` / `#0EA5E9`)**: Tropical Pool Azure. Used for key interactive highlights, selected dates in scheduling matrices, primary booking CTAs, and active navigation indicators.
+- **Secondary (`#0F172A` / `#1E293B`)**: Deep Mediterranean Navy. Serves as high-contrast structural text, dark-mode accents, primary headings, and high-impact containers like evening reservation summaries.
+- **Tertiary (`#D97706` / `#F59E0B`)**: Champagne Gold. Applied deliberately for VIP indicators, package tiers, pricing accents, badge borders, and celebratory milestones.
+- **Neutral Canvas (`#FAF8F5` / `#F1ECE4`)**: Warm Sand and Ivory Alabaster. Forms the base canvas and card surfaces, ensuring the platform feels tactile, luminous, and organic rather than sterile white.
+
+Complementary neutrals include muted borders (`#E7E1D8`) and secondary text slate (`#475569`).
+
+## Typography
+
+The type hierarchy establishes an intentional dialog between hospitality editorial prestige and high-clarity booking utility:
+
+- **Playfair Display**: Allocated to prominent narrative elements, hero slogans, venue hall titles, package names, and section headers. High-contrast transitional serifs provide organic, elevated rhythm.
+- **Plus Jakarta Sans**: Drives all administrative, functional, and tabular tasks. Clean geometric forms with warm humanist terminals maintain high readability within calendar grids, breakdown receipts, time pickers, and guest capacity tallies.
+- **Uppercase Micro-labels (`label-sm`)**: Set with extended tracking (`0.08em`) in dark slate or gold for metadata tags such as capacity thresholds, venue amenities, and receipt status codes.
+
+## Layout & Spacing
+
+The layout model balances breathable negative space with compact transactional grids:
+
+- **Desktop (1024px and above)**: 12-column responsive grid centered with a `max-width` of 1280px. Margins set to `margin` (3rem) and column gutters to `gutter` (1.5rem). Split-screen layouts anchor discovery imagery or venue schematics on the left, paired with booking and calendar interfaces on the right.
+- **Tablet (768px - 1023px)**: 8-column layout with 2rem margins and 1rem gutters. Sticky booking drawers collapse beneath configuration previews.
+- **Mobile (below 768px)**: 4-column layout with `margin-sm` (1.25rem) margins. Sticky bottom action bar preserves booking conversion pathways while step-by-step receipt logic collapses into expandable accordions.
+- **Spacing Scale**: Structural padding inside booking cards follows `space-lg` (1.5rem), micro-gaps within input and pill groups utilize `space-xs` (0.25rem) to `space-sm` (0.5rem), and thematic section breaks invoke `space-2xl` (4rem).
+
+## Elevation & Depth
+
+Visual depth combines warm atmospheric shadows and layered alabaster surfaces, rejecting harsh drops in favor of sunlit diffusion:
+
+- **Base Layer (Flat)**: Canvas surfaces rest on `#FAF8F5`. Sub-panels and grouping modules use `#F1ECE4` with crisp hairline borders (`1px solid #E7E1D8`).
+- **Resting Cards**: Elevated via subtle, warm-tinted ambient occlusion: `0 4px 20px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02)`.
+- **Interactive Hover & Booking Trays**: Elevated on interaction using: `0 12px 32px -4px rgba(2, 132, 199, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.05)`.
+- **Modals & Flyout Sheets**: Deep ground separation with a soft backdrop filter: `box-shadow: 0 24px 48px -8px rgba(15, 23, 42, 0.16)` over a scrim of `rgba(15, 23, 42, 0.45)` with `backdrop-filter: blur(8px)`.
+- **Gold Accent Sheen**: Active selected calendar badges leverage an inner highlight: `inset 0 1px 1px 0 rgba(255, 255, 255, 0.4)`.
+
+## Shapes
+
+The system uses `roundedness: 2` (base radius of 0.5rem / 8px). This creates architectural softness reminiscent of rounded poolside terraces and stone columns while preserving structural authority for reservation forms:
+
+- **Base Form Controls & Interactive Buttons**: `0.5rem` (8px).
+- **Cards, Interactive Calendars & Summary Receipts (`rounded-lg`)**: `1rem` (16px).
+- **Hero Image Containers & Modal Windows (`rounded-xl`)**: `1.5rem` (24px).
+- **Chips, Category Pills, and Status Tags**: Fully pill-shaped (`9999px`) to distinguish categorical selectors from actionable rectangular steps.
+
+## Components
+
+### Buttons
+- **Primary CTA**: Background in Pool Azure (`#0284C7`), text in white, with a subtle hover transition to `#0369A1`. Height: 48px, horizontal padding `space-lg`, border-radius 8px, font: `label-md`.
+- **Secondary / VIP**: Deep Mediterranean Navy background (`#0F172A`) with subtle Champagne Gold border (`#D97706`), text in warm alabaster. Used for "Reserve Entire Estate" or high-tier packages.
+- **Ghost / Outlined**: Transparent background with 1px border (`#E7E1D8`), text in `#0F172A`. On hover, background shifts to `#F1ECE4`.
+
+### Interactive Calendar Cards
+- Constructed with a `1rem` radius, `#FFFFFF` surface, and `1px solid #E7E1D8` outline.
+- **Available Days**: Slate text `#0F172A`, gentle hover state with `#E0F2FE` (Azure tint).
+- **Booked / Unavailable**: Strikethrough text with `#94A3B8`, low-contrast ivory background.
+- **Selected Range**: Filled in Pool Azure (`#0284C7`) with white bold text; intermediate range days receive `#F0F9FF` fill with azure side borders.
+- **Weekend / Premium Surcharge Marker**: Tiny Champagne Gold dot (`#D97706`) anchored below the date numeral.
+
+### Dual Summary Receipt Boxes
+- Split-screen or dual-tier calculation box designed for transparent pricing breakdown (Venue Rental + Pool/Catering Add-ons):
+  - **Upper Chamber**: Background in `#FFFFFF`, containing itemized service rows, guest headcount multipliers, and hourly adjustments. Separated by dotted neutral lines.
+  - **Lower Chamber (Totals & Deposit)**: Background in Deep Mediterranean Navy (`#0F172A`) or warm Ivory (`#F1ECE4`) with heavy headline values in Playfair Display (`headline-sm`). Includes clear distinction between "Deposit Due Today" and "Balance Due Upon Check-in".
+
+### Chips & Badges
+- **Status Chips**: 28px height, rounded pill (`9999px`), padding `0.25rem 0.75rem`.
+- **Poolside Reserved**: Soft azure tint (`#E0F2FE`), text `#0369A1`.
+- **Exclusive / VIP**: Soft champagne tint (`#FEF3C7`), text `#B45309`, border `1px solid #FDE68A`.
+
+### Input Fields & Selectors
+- Height 48px, background `#FFFFFF`, border `1px solid #E7E1D8`, radius `0.5rem`.
+- Text styled in `body-md` (`#0F172A`). Placeholder text in `#94A3B8`.
+- Focus state applies a crisp 1.5px ring in Pool Azure (`#0284C7`) with an outer offset shadow of `rgba(2, 132, 199, 0.15)`.
+
+### Checkboxes & Radio Controls
+- Radio controls use nested circular concentric rings; active state displays a white dot within an Azure `#0284C7` circle.
+- Add-on toggles (e.g., "Add Pool Cabana Lighting", "Include Welcome Cocktail Station") appear as interactive card-level check boxes with gold accent icons upon selection.

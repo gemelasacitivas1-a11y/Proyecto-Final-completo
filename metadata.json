@@ -1,0 +1,8 @@
+{
+  "name": "Oasis Salón & Piscina",
+  "description": "Luxury Mediterranean private event hall and poolside reservation experience, featuring curated artisanal decor and transparent booking pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

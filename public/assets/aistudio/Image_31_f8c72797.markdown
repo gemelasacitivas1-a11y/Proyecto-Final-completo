@@ -1,0 +1,206 @@
+---
+name: Terracotta & Sand Luxury Editorial
+colors:
+  surface: '#fdf8f4'
+  surface-dim: '#ded9d5'
+  surface-bright: '#fdf8f4'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f8f3ef'
+  surface-container: '#f2ede9'
+  surface-container-high: '#ece7e3'
+  surface-container-highest: '#e6e2de'
+  on-surface: '#1d1b19'
+  on-surface-variant: '#554241'
+  inverse-surface: '#32302e'
+  inverse-on-surface: '#f5f0ec'
+  outline: '#877271'
+  outline-variant: '#dac1bf'
+  surface-tint: '#984444'
+  primary: '#6d2325'
+  on-primary: '#ffffff'
+  primary-container: '#8b3a3a'
+  on-primary-container: '#ffb6b3'
+  inverse-primary: '#ffb3b0'
+  secondary: '#a23e2b'
+  on-secondary: '#ffffff'
+  secondary-container: '#fd826a'
+  on-secondary-container: '#721b0c'
+  tertiary: '#5e3100'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#7e4605'
+  on-tertiary-container: '#ffba7f'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdad8'
+  primary-fixed-dim: '#ffb3b0'
+  on-primary-fixed: '#3f0207'
+  on-primary-fixed-variant: '#7a2d2e'
+  secondary-fixed: '#ffdad3'
+  secondary-fixed-dim: '#ffb4a5'
+  on-secondary-fixed: '#3f0400'
+  on-secondary-fixed-variant: '#822716'
+  tertiary-fixed: '#ffdcc2'
+  tertiary-fixed-dim: '#ffb77a'
+  on-tertiary-fixed: '#2e1500'
+  on-tertiary-fixed-variant: '#6d3a00'
+  background: '#fdf8f4'
+  on-background: '#1d1b19'
+  surface-variant: '#e6e2de'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '600'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '600'
+    lineHeight: 46px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+    letterSpacing: 0.01em
+  title-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+This design system expresses a warm, grounded luxury ethos tailored for high-end editorial commerce, artisanal hospitality, and bespoke lifestyle curation. Drawing visual inspiration from natural earthenware, sun-drenched clay, and toasted desert sands, the design language communicates understated prestige, mindful craft, and organic warmth. 
+
+The aesthetic marries classical editorial sophistication with modern tactile restraint. Generous negative space, refined serif display typography, and smooth, curved geometry replace cold tech minimalism with sensory comfort. Interfaces evoke the tranquility of a curated high-fashion monograph or architectural journal, maintaining approachable tactility without sacrificing functional precision.
+
+## Colors
+The palette is built upon radiant, warm-spectrum pigments sampled directly from layered terra cotta and clay strata:
+
+- **Primary (`#8B3A3A`)**: Deep cocoa-russet clay. Serves as the primary anchor for dominant interactive states, key typography, and focused high-contrast moments.
+- **Secondary (`#D3624C`)**: Rich toasted terracotta. Delivers vibrant warmth for secondary calls to action, badges, and active accent signifiers.
+- **Tertiary (`#ECA05C`)**: Sunbaked golden amber. Injects luminous contrast for subtle highlights, interactive hovers, and rating or decorative flourishes.
+- **Neutral (`#FDF8F4`)**: Soft toasted sand. Provides a delicate, warm-tinted base canvas that removes glare while reinforcing the tactile, organic mood.
+
+Text hierarchy builds down from deep espresso-charcoal (`#2D1815`) for high contrast to muted terracotta taupe (`#7A5852`) for secondary captions. Container backgrounds layer softly against the canvas with ivory-cream tints (`#F7EFE9`) and gentle clay borders (`#EADCCE`).
+
+## Typography
+Typographic rhythm centers on the deliberate contrast between the editorial romance of **Playfair Display** and the clean, humanist balance of **Plus Jakarta Sans**.
+
+- **Playfair Display** introduces haute-couture editorial presence across headlines and displays, using relaxed letterforms and moderate weights to preserve readability while conveying architectural elegance.
+- **Plus Jakarta Sans** provides open, legible geometry for body copy, product descriptions, meta fields, and interactive actions, ensuring frictionless scannability on all screen resolutions. Small labels utilize subtle tracking expansion (`0.06em`) for elevated clarity in uppercase caps or metadata pills.
+
+## Layout & Spacing
+The layout relies on a generous 12-column grid on desktop, compressing to an 8-column layout on tablet and a 4-column layout on mobile. Spacing embraces an airy, museum-like cadence where negative space allows photography and warm earth tones to breathe.
+
+Outer section padding scales dynamically:
+- **Desktop (1024px+)**: `margin: 3rem` with an inner container max-width of 1360px and `gutter: 1.5rem`.
+- **Tablet (768px - 1023px)**: `margin: 2rem` with `gutter: 1.25rem`.
+- **Mobile (<768px)**: `margin: 1.25rem` with `gutter: 1rem`.
+
+Section transitions leverage `space-xl` to establish clear topical separation, while inner card components prioritize breathing room using `space-md` and `space-lg`.
+
+## Elevation & Depth
+Depth in this system avoids harsh, drop-shadow realism in favor of soft, ambient warmth:
+
+- **Warm Ambient Shadows**: Shadows carry a tinted clay undertone (`rgba(139, 58, 58, 0.08)`) with broad, diffused blurs (`0 12px 32px rgba(139, 58, 58, 0.06)`). This prevents floating elements from feeling detached from the toasted sand canvas.
+- **Tonal Layering**: Primary surfaces stack over `#FDF8F4` using subtle tonal fills (`#FFFFFF` for foreground cards, `#F8EFE9` for recessed backdrops or secondary tiles).
+- **Hairline Warm Borders**: Structural cards and elevated controls are bound by hairline borders (`1px solid #EADCCE`), providing definition with an organic ceramic quality.
+
+## Shapes
+Geometry strikes a harmonious balance between refined modern curves and organic soft pottery lines:
+
+- **Cards and Containers**: Utilize smooth, architectural corners (`rounded-lg` at 1rem/16px and `rounded-xl` at 1.5rem/24px for feature banners).
+- **Interactive Micro-Elements**: Interactive buttons use `rounded-md` (0.5rem/8px) to feel crisp and dependable.
+- **Pills and Status Chips**: Use maximum radius (`9999px`) to create smooth, polished pebble silhouettes that contrast pleasingly with the structured rectangular cards.
+
+## Components
+
+### Buttons
+- **Primary**: Rich deep cocoa (`#8B3A3A`) fill, crisp `#FFFFFF` text, `0.5rem` rounded corners, with `0.75rem 1.5rem` internal padding. Hover states subtly lift with a gentle warm glow and an active transition to `#752E2E`.
+- **Secondary**: Terracotta stroke (`1.5px solid #D3624C`), warm tinted transparent fill (`#FDF8F4`), and `#8B3A3A` text.
+- **Text / Ghost**: Borderless with `#8B3A3A` typography, featuring a delicate terracotta underline accent on hover.
+
+### Chips & Badges
+- **Pill Chips**: Full pill radius (`9999px`), `0.375rem 1rem` padding. Inactive states feature `#F4E7DE` background with `#8B3A3A` body-sm text. Selected states flip to `#8B3A3A` fill with `#FFFFFF` text or toasted terracotta `#D3624C` for highlighted tag categories.
+
+### Cards
+- **Editorial Cards**: Crafted on `#FFFFFF` or `#FAF2EB` surfaces with a `1rem` corner radius, hairline borders (`1px solid #EADCCE`), and soft amber-clay ambient drop shadows. Imagery within cards features subtle inset radius (`0.75rem`) to maintain framing harmony.
+
+### Form Inputs
+- **Fields**: Background tinted in `#FFFFFF` over the `#FDF8F4` canvas, framed in `1px solid #E5D5C8` with `0.5rem` border radius. Focus states illuminate with a `1.5px` border in `#8B3A3A` and a soft ambient focus ring (`0 0 0 3px rgba(211, 98, 76, 0.15)`).
+
+### Selection Controls
+- **Checkboxes & Radios**: Finished in `#8B3A3A` when active with clean white check or dot glyphs. Unselected rings use muted terracotta taupe (`#C7AFA8`).
+
+### Curated Editorial Additions
+- **Product Tiles & Lookbook Carousel**: High-aspect ratio imagery framed by toasted cream borders, overlaid with floating pill price badges and Playfair Display titling.
+- **Quote / Editorial Breakouts**: Left-bordered accent bar in `#D3624C` accompanied by large italicized `Playfair Display` typography to ground narrative storytelling.
